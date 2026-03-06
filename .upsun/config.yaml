@@ -17,6 +17,7 @@ applications:
     mounts:
       '.n8n': { source: storage, source_path: n8n }
       '.cache': { source: storage, source_path: cache }
+      'data': { source: storage, source_path: data }
     web:
       commands:
         start: "n8n start"
